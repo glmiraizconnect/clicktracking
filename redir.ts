@@ -1,6 +1,6 @@
 
 const url='https://script.google.com/macros/s/AKfycbx0LeEMDEP2VqJFtFmAWqjKc3cbEtNlgoyr1Dtk2qlmsMIvQ4slKAEFOpV11Gh5Nvdj/exec'
-const makelog=async ()=>{ 
+const makelog= async ()=>{ 
    fetch(url+location.search,
         {
             method: 'GET',
