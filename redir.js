@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
-var url = 'https://script.google.com/macros/s/AKfycbx0LeEMDEP2VqJFtFmAWqjKc3cbEtNlgoyr1Dtk2qlmsMIvQ4slKAEFOpV11Gh5Nvdj/exec';
+var url = 'https://script.google.com/macros/s/AKfycbwivqaniKlduIKlvvjz75RZv_ZIQ5yMzMyGGn6uKQvDnkwuEGe41GYx0xgi7mwVFvQ/exec';
 var makelog = function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
         fetch(url + location.search, {
