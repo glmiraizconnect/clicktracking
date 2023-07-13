@@ -3,5 +3,7 @@
 #  _site folder: these files should be posted onto static server.
 #
 npx tsc ./_src/redir.ts --outFile ./_site/redir.js
+
 npx tsc ./_src/clickapp_gas.ts --outFile ./_dist/clickapp_gas.gs
+
 cp ./_src/redir.html ./_site/
