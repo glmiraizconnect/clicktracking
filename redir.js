@@ -52,5 +52,6 @@ makelog();
 window.onload = function () {
     var encodedurl = location.search.split('up=')[1].split('&')[0];
     var newurl = atob(decodeURI(encodedurl));
-    window.setTimeout("window.open(\"".concat(newurl, "\",\"_self\",{})"), 750)
+    //window.setTimeout("window.open(\"".concat(newurl, "\",\"_self\",{})"), 750)
+    location.replace(newurl);
 };
