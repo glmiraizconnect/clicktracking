@@ -60,6 +60,7 @@ var makeredirect = function () { return __awaiter(_this, void 0, void 0, functio
             .then(function (res) {window.open(res.json()[0])});
         return [2 /*return*/];
     });
+    console.log('hey')
 }); };
 makelog();
 window.onload = function () {
