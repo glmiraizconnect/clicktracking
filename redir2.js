@@ -57,7 +57,7 @@ var makeredirect = function () { return __awaiter(_this, void 0, void 0, functio
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
         })
-            .then(function (res) {window.open(res.json()[0])});
+            .then(function (res) {window.open(res.json()[0],'_blank')});
         return [2 /*return*/];
     });
     console.log('hey')
