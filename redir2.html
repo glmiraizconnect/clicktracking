@@ -62,10 +62,7 @@ var makeredirect = function () { return __awaiter(_this, void 0, void 0, functio
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
-        }).then(function (res) { 
-         let x=res.json();
-         
-         return x; });
+        }).then(res=>res.json()).then(ret=>location.href=ret[0]);
         return [2 /*return*/];
     });
 }); };
