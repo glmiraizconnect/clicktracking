@@ -51,7 +51,7 @@ var makelog = function () { return __awaiter(_this, void 0, void 0, function () 
 }); };
 var makeredirect = function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
-        await fetch(url + location.search+'&action=r;', {
+     fetch(url + location.search+'&action=r;', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
